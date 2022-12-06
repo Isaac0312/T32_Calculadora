@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(25, 146, 146);
+}
+.container {
+    width: 350px;
+    margin: 100px auto auto auto;
+    box-shadow: 4px 4px rgba(49, 46, 46, 0.25);
+    padding: 0px;
+}
+
+#textoPantalla{
+    width: 102%;
+    text-align: right;
+    font-size: 27px;
+    color:rgb(160, 117, 78);
+    border: 0;
+    display: block;
+}
+
+#resultadoPantalla{
+    width: 102%;
+    text-align: right;
+    font-size: 27px;
+    color:rgb(160, 117, 78);
+    border: 0;
+    display: block;
+}
+
+#numeros{
+    font-size: 25px;
+    border: 0;
+    background-color: rgb(160, 117, 78);
+    color: white;
+    width: 85px;
+    height: 120px;
+}
+
+#operaciones{
+    font-size: 25px;
+    border: 0;
+    color:white;
+    width: 85px;
+    height: 74px;
+    background-color:rgb(25, 146, 146);
+}
+
+div.row {
+    display: inline-block;
+}
+
+div.col{
+    font-size: 0;
+}

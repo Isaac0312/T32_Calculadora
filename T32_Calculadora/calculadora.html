@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>Calculadora</title> 
+<link rel="stylesheet" type="text/css" href="../T32_Calculadora/calculadora.css" />
+<script type="text/javascript" src="../T32_Calculadora/scriptscalculadora.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <input type="text" id="textoPantalla">
+        </div>
+        <div class="col">
+            <input type="text" value="0" id="resultadoPantalla" readonly>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <input id="numeros" type="button" value="9" onclick="numero('9')" />
+            <input id="numeros" type="button" value="8" onclick="numero('8')" />
+            <input id="numeros" type="button" value="7" onclick="numero('7')" />
+        </div>
+        <div class="col">
+            <input id="numeros" type="button" value="6" onclick="numero('6')" />
+            <input id="numeros" type="button" value="5" onclick="numero('5')" />
+            <input id="numeros" type="button" value="4" onclick="numero('4')" />
+        </div>
+        <div class="col">
+            <input id="numeros" type="button" value="3" onclick="numero('3')" />
+            <input id="numeros" type="button" value="2" onclick="numero('2')" />
+            <input id="numeros" type="button" value="1" onclick="numero('1')" />
+        </div>
+        <div class="col">
+            <input id="numeros" type="button" value="." onclick="numero('.')" />
+            <input id="numeros" type="button" value="0" onclick="numero('0')" />
+            <input id="numeros" type="button" value="00" onclick="numero('00')" />
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <input id="operaciones" type="button" value="DEL" onclick="borradoTotal()" />
+        </div>
+        <div class="col">
+            <input id="operaciones" type="button" value="/" onclick="operar('/')"  />
+        </div>
+        <div class="col">
+            <input id="operaciones" type="button" value="X" onclick="operar('*')" />
+        </div>
+        <div class="col">
+            <input id="operaciones" type="button" value="-" onclick="operar('-')" />
+        </div>
+        <div class="col">
+            <input id="operaciones" type="button" value="+" onclick="operar('+')" />
+        </div>
+        <div class="col">
+            <input id="operaciones" type="button" value="=" onclick="igualar()" />
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
